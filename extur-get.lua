@@ -1,3 +1,5 @@
+--http://pastebin.com/BKFPcScC
+
 local branch = "master"
 if fs.exists(".extur.branch") then
   local f = fs.open(".extur.branch", "r")
@@ -19,6 +21,11 @@ local files = {
     name = "beekeeper",
     folder = "disk",
     url = "https://raw.github.com/Forte40/extraturtles/"..branch.."/beekeeper.lua"
+  },
+  {
+    name = "hopper",
+    folder = "disk",
+    url = "https://raw.github.com/Forte40/extraturtles/"..branch.."/hopper.lua"
   },
 }
 
